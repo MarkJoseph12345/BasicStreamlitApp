@@ -3,6 +3,26 @@ from PIL import Image
 
 st.set_page_config(page_title="Basic Streamlit App", page_icon="🧑‍🚀")
 
+style = """
+<style>
+
+    .st-as:hover {
+        color: #02b34a;
+    }
+
+    .st-as[aria-selected="true"] {
+        color: #02b34a;
+    }
+    
+    .st-c1 {
+        background-color: #02b34a;
+    }
+
+</style>
+"""
+
+st.markdown(style, unsafe_allow_html=True)
+
 tab1, tab2, tab3, = st.tabs(["Home", "About Me", "Links"])
 
 with tab1:
