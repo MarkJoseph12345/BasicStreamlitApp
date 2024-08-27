@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.set_page_config(page_title="Basic Streamlit App")
+st.set_page_config(page_title="Basic Streamlit App", page_icon="🧑‍🚀")
 
 tab1, tab2, tab3, = st.tabs(["Home", "About Me", "Links"])
 
