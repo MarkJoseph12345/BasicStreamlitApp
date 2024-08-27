@@ -26,7 +26,6 @@ st.markdown(style, unsafe_allow_html=True)
 tab1, tab2, tab3, = st.tabs(["Home", "About Me", "Links"])
 
 with tab1:
-    st.header("Home")
     st.write("Basic Streamlit App Act 1")
     st.markdown(
         """
@@ -35,7 +34,6 @@ with tab1:
     )
 
 with tab2:
-    st.header("About Me")
     st.markdown(
         """
         Hi I'm Mark Joseph Piodos, an IT Student in CIT-U.
@@ -57,7 +55,6 @@ with tab2:
     st.image(image, caption='Astro', use_column_width=True)
 
 with tab3:
-    st.header("Links")
     st.markdown(
     """
     - <a href="https://github.com/MarkJoseph12345">
