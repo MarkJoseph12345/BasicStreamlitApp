@@ -14,7 +14,7 @@ style = """
         color: #02b34a;
     }
     
-    .st-c1 {
+    .st-c2 {
         background-color: #02b34a;
     }
 
